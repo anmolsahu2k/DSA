@@ -25,7 +25,7 @@ class Solution
                 maxCount=itr->second;
                 maxString=itr->first;
             }
-            if(secondMax<itr->second && maxCount>itr->second)
+            else if(secondMax<itr->second && maxCount>itr->second)
             {
                 secondMax=itr->second;
                 res=itr->first;
